@@ -330,7 +330,7 @@ nav button:hover {
   }
 
     .logo {
-    max-height: 12vh;
+    max-height: 20vh;
   }
 
   nav {
@@ -355,11 +355,39 @@ nav button:hover {
     height: auto;
     text-align: center;
   }
+  
+   .header-content {
+     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+  }
+
+  .logo-wrapper {
+    max-height: 120px; /* increase logo size */
+    width: auto;
+    height: auto;
+  }
+
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .header-text h1,
+  .header-text {
+    align-items: center;
+    margin: 5px 0;
+    font-size: 1rem; 
+  }
 
   .site-header {
   padding: 0 10px;
   box-sizing: border-box;
-}
+  }
 
   footer {
     flex-direction: column;
